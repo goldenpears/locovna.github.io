@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Varela Round';
+  src: url("../fonts/VarelaRound-Regular.otf"); }
+p {
+  margin: 0;
+  margin-bottom: 10px; }
+
+a, a:visited {
+  color: #ED7E7B;
+  text-decoration: none; }
+
+a:hover {
+  color: #000000; }
+
+ul {
+  padding-left: 20px; }
+
+p, ul {
+  margin: 0;
+  margin-bottom: 20px; }
+
+body {
+  background-color: #CCE9E4;
+  font-family: 'Varela Round', sans-serif;
+  color: #222627;
+  margin: 0;
+  padding: 40px 0;
+  font-size: 18px;
+  font-weight: 200; }
+
+section#face img {
+  margin: 0 100px; }
+
+section {
+  box-sizing: border-box;
+  margin: 40px auto;
+  width: 700px; }
+
+section#profile #intro {
+  font-size: 40px;
+  color: #232424;
+  font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
