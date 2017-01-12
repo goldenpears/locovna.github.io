@@ -1,1 +1,1 @@
-console.log("lambda")
+console.log('no')

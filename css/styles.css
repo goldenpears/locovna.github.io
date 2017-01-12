@@ -22,7 +22,7 @@ body {
   font-family: 'Helvetica', sans-serif;
   color: #c1c1bc;
   margin: 0;
-  padding: 40px 0;
+  padding: 40px;
   font-size: 16px;
   font-weight: 200; }
 
@@ -54,8 +54,7 @@ img {
 }
 
 .app {
-  margin-top:130px;
-}
+  margin-top:130px; }
 
 .line-separator {
   height:0.1px;
@@ -63,5 +62,16 @@ img {
   margin-top: 100px; }
 
 a.title{
-  color: #000000;
-}
+  color: #000000; }
+
+@media screen and (max-width: 800px) {
+  section {
+  box-sizing: border-box;
+  margin: 10px auto;
+  width: 600px; }
+
+@media screen and (max-width: 500px) {
+  section {
+  box-sizing: border-box;
+  margin: 10px auto;
+  width: 300px; }
