@@ -23,16 +23,18 @@ body {
   color: #c1c1bc;
   margin: 0;
   padding: 40px;
-  font-size: 16px;
+  font-size: 1,5vw;
+  line-height: 1.5em; 
   font-weight: 200; }
 
 section {
   box-sizing: border-box;
   margin: 10px auto;
-  width: 700px; }
+  width: 70vw;}
 
 section#about #intro, h2 {
-  font-size: 40px;
+  font-size: 4vw;
+  line-height: 1.2em; 
   color: #000000;
   font-weight: bold; }
 
@@ -64,14 +66,14 @@ img {
 a.title{
   color: #000000; }
 
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
   section {
   box-sizing: border-box;
   margin: 10px auto;
-  width: 600px; }
+  width: 60vh; }
 
 @media screen and (max-width: 500px) {
   section {
   box-sizing: border-box;
   margin: 10px auto;
-  width: 300px; }
+  width: 40vh; }*/
