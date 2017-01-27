@@ -1,0 +1,18 @@
+@import variables
+
+.fa 
+  padding: 0 5px
+
+.terminal
+  font-size: .7em
+  font-family: "Roboto Mono", monospace
+
+// blink cursor in terminal
+.terminal:hover
+  span
+    color: $color-accent
+    animation: blink-animation 1s steps(2, start) infinite
+
+@keyframes blink-animation
+  to
+    visibility: hidden

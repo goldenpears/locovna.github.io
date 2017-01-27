@@ -1,0 +1,67 @@
+@import variables
+@import decorations
+
+body
+  background-color: $primary-bg-color
+  font-family: $font-stack
+  color: $primary-text-color
+  font-weight: $font-weight
+  margin: 0
+
+p
+  margin: $text-margin 0
+
+a, a:visited
+  color: $links-color
+  text-decoration: none
+a:hover
+  color: $color-accent
+
+li
+  list-style-type: none
+  padding-bottom: 10px
+ul
+  margin-top: 50px
+
+#container
+  width: 60vw
+  margin: $margin * 2 auto
+
+section
+  margin: $margin auto
+  display: flex
+  justify-content: flex-start
+  flex-direction: column
+  font-size: $font-size
+
+#header
+  p
+    font-size: $font-size * 4
+    color: $title-text-color
+    font-weight: bold
+    margin: $text-margin/8 0
+
+#contact
+  a
+    margin-right: $margin/2
+
+#post1
+  width: 100vw
+  background-color: #edfaf2
+  display: flex
+  justify-content: space-around
+  color: #d7c7b9
+
+#post2
+  @extend #post1
+  background-color: #bbbcc7
+  color: #737373
+
+.post_content
+  padding: 50px 100px
+  flex-grow: 1
+  flex-basis: 0
+  img
+    width: 100%
+
+@import media

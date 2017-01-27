@@ -1,0 +1,88 @@
+.fa {
+  padding: 0 5px; }
+
+.terminal {
+  font-size: 0.7em;
+  font-family: "Roboto Mono", monospace; }
+
+.terminal:hover span {
+  color: #a18cff;
+  animation: blink-animation 1s steps(2, start) infinite; }
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden; } }
+body {
+  background-color: #FDFCF7;
+  font-family: Helvetica, sans-serif;
+  color: #c1c1bc;
+  font-weight: 300;
+  margin: 0; }
+
+p {
+  margin: 0.5em 0; }
+
+a, a:visited {
+  color: #000000;
+  text-decoration: none; }
+
+a:hover {
+  color: #a18cff; }
+
+li {
+  list-style-type: none;
+  padding-bottom: 10px; }
+
+ul {
+  margin-top: 50px; }
+
+#container {
+  width: 60vw;
+  margin: 100px auto; }
+
+section {
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 0.9em; }
+
+#header p {
+  font-size: 3.6em;
+  color: #000000;
+  font-weight: bold;
+  margin: 0.0625em 0; }
+
+#contact a {
+  margin-right: 25px; }
+
+#post1, #post2 {
+  width: 100vw;
+  background-color: #edfaf2;
+  display: flex;
+  justify-content: space-around;
+  color: #d7c7b9; }
+
+#post2 {
+  background-color: #bbbcc7;
+  color: #737373; }
+
+.post_content {
+  padding: 50px 100px;
+  flex-grow: 1;
+  flex-basis: 0; }
+  .post_content img {
+    width: 100%; }
+
+@media screen and (max-width: 800px) {
+  #container {
+    width: auto;
+    padding-left: 20px; }
+
+  #post1, #post2 {
+    display: block; }
+
+  .post_content {
+    padding: 20px; } }
+
+/*# sourceMappingURL=main.css.map */
