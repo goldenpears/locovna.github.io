@@ -42,16 +42,18 @@ section {
 #contact a {
   margin-right: 25px; }
 
-#post1, #post2 {
+#post1, #post2, #post3 {
   width: 100vw;
   background-color: #edfaf2;
   display: flex;
   justify-content: space-around;
-  color: #d7c7b9; }
+  color: grey; }
 
 #post2 {
-  background-color: #bbbcc7;
-  color: #737373; }
+  background-color: #bbbcc7; }
+
+#post3 {
+  background-color: #f1e1e1; }
 
 .post_content {
   padding: 50px 100px;
@@ -71,7 +73,7 @@ section {
     width: auto;
     padding-left: 20px; }
 
-  #post1, #post2 {
+  #post1, #post2, #post3 {
     display: block; }
 
   .post_content {
