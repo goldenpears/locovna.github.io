@@ -1,17 +1,3 @@
-.fa {
-  padding: 0 5px; }
-
-.terminal {
-  font-size: 0.7em;
-  font-family: "Roboto Mono", monospace; }
-
-.terminal:hover span {
-  color: #a18cff;
-  animation: blink-animation 1s steps(2, start) infinite; }
-
-@keyframes blink-animation {
-  to {
-    visibility: hidden; } }
 body {
   background-color: #FDFCF7;
   font-family: Helvetica, sans-serif;
@@ -73,6 +59,12 @@ section {
   flex-basis: 0; }
   .post_content img {
     width: 100%; }
+  .post_content a {
+    margin-right: 30px; }
+  .post_content .inactive {
+    pointer-events: none;
+    cursor: default;
+    color: #909090; }
 
 @media screen and (max-width: 800px) {
   #container {
@@ -84,5 +76,25 @@ section {
 
   .post_content {
     padding: 20px; } }
+.fa {
+  padding: 0 5px; }
+
+.terminal {
+  font-size: 0.7em;
+  font-family: "Roboto Mono", monospace; }
+
+.terminal:hover span {
+  color: #a18cff;
+  animation: blink-animation 1s steps(2, start) infinite; }
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden; } }
+#weird_symbols {
+  font-size: 3.6em;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  overflow: visible; }
 
 /*# sourceMappingURL=main.css.map */
