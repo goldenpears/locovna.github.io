@@ -38,6 +38,8 @@ section {
   color: #000000;
   font-weight: bold;
   margin: 0.0625em 0; }
+  #header p span {
+    color: #c1c1bc; }
 
 #contact a {
   margin-right: 25px; }
@@ -47,7 +49,8 @@ section {
   background-color: #edfaf2;
   display: flex;
   justify-content: space-around;
-  color: grey; }
+  color: grey;
+  padding-bottom: 70px; }
 
 #post2 {
   background-color: #bbbcc7; }
@@ -68,6 +71,12 @@ section {
     cursor: default;
     color: #909090; }
 
+@media screen and (min-width: 2000px) {
+  .post_content {
+    padding: 100px 200px; } }
+@media screen and (max-width: 900px) {
+  .post_content {
+    padding: 50px 60px; } }
 @media screen and (max-width: 800px) {
   #container {
     width: auto;
@@ -78,6 +87,9 @@ section {
 
   .post_content {
     padding: 20px; } }
+@media screen and (max-width: 400px) {
+  .post_content {
+    padding: 10px; } }
 .fa {
   padding: 0 5px; }
 
