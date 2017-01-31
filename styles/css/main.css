@@ -44,7 +44,7 @@ section {
 #contact a {
   margin-right: 25px; }
 
-#post1, #post2, #post3 {
+#notatka, #json, #weezeeroonok {
   width: 100vw;
   background-color: #edfaf2;
   display: flex;
@@ -52,10 +52,10 @@ section {
   color: grey;
   padding-bottom: 70px; }
 
-#post2 {
+#json {
   background-color: #bbbcc7; }
 
-#post3 {
+#weezeeroonok {
   background-color: #f1e1e1; }
 
 .post_content {
@@ -82,7 +82,7 @@ section {
     width: auto;
     padding-left: 20px; }
 
-  #post1, #post2, #post3 {
+  #post1 {
     display: block; }
 
   .post_content {
