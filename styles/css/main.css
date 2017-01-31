@@ -44,13 +44,16 @@ section {
 #contact a {
   margin-right: 25px; }
 
-#notatka, #json, #weezeeroonok {
+#notatka, #weather, #json, #weezeeroonok {
   width: 100vw;
   background-color: #edfaf2;
   display: flex;
   justify-content: space-around;
   color: grey;
   padding-bottom: 70px; }
+
+#weather {
+  background-color: #e3e0f3; }
 
 #json {
   background-color: #bbbcc7; }
