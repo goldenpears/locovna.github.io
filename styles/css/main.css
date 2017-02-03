@@ -1,7 +1,7 @@
 body {
   background-color: #FDFCF7;
   font-family: Helvetica, sans-serif;
-  color: #c1c1bc;
+  color: #a5a5a1;
   font-weight: 300;
   margin: 0; }
 
@@ -20,7 +20,10 @@ li {
   padding-bottom: 10px; }
 
 ul {
-  margin-top: 50px; }
+  margin: 50px 0px; }
+
+h4 {
+  color: grey; }
 
 #container {
   width: 60vw;
@@ -39,12 +42,12 @@ section {
   font-weight: bold;
   margin: 0.0625em 0; }
   #header p span {
-    color: #c1c1bc; }
+    color: #a5a5a1; }
 
 #contact a {
   margin-right: 25px; }
 
-#notatka, #weather, #json, #weezeeroonok {
+#notatka, #witer, #json, #weezeeroonok {
   width: 100vw;
   background-color: #f0f7f3;
   display: flex;
@@ -52,7 +55,7 @@ section {
   color: grey;
   padding-bottom: 70px; }
 
-#weather {
+#witer {
   background-color: #eceef7; }
 
 #json {
@@ -81,20 +84,29 @@ section {
   .post_content {
     padding: 50px 60px; } }
 @media screen and (max-width: 800px) {
+  body {
+    font-weight: 400; }
+
   #container {
     width: auto;
     padding-left: 20px; }
 
-  #notatka, #weather, #json, #weezeeroonok {
+  #notatka, #witer, #json, #weezeeroonok {
     display: block; }
 
   .post_content {
-    padding: 20px; } }
+    padding: 30px; } }
 @media screen and (max-width: 400px) {
+  body {
+    font-weight: 500; }
+
   .post_content {
     padding: 10px; } }
 .fa {
   padding: 0 5px; }
+
+.fa-heart {
+  color: #ff6464; }
 
 .terminal {
   font-size: 0.7em;
