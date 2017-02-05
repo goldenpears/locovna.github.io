@@ -10,17 +10,19 @@ p {
 
 a, a:visited {
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: bold; }
 
 a:hover {
   color: #a18cff; }
 
 li {
-  list-style-type: none;
-  padding-bottom: 10px; }
+  padding-bottom: 8px; }
 
 ul {
-  margin: 50px 0px; }
+  list-style-type: none;
+  margin: 50px 0px;
+  padding: 0; }
 
 h4 {
   color: grey; }
@@ -75,7 +77,9 @@ section {
   .post_content .inactive {
     pointer-events: none;
     cursor: default;
-    color: #909090; }
+    color: #cdcdcd; }
+  .post_content .tools {
+    font-size: 12px; }
 
 @media screen and (min-width: 2000px) {
   .post_content {

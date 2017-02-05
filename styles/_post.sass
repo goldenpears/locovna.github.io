@@ -1,0 +1,37 @@
+@import variables
+
+#notatka
+  width: 100vw
+  background-color: #f0f7f3
+  display: flex
+  justify-content: space-around
+  color: grey
+  padding-bottom: 70px
+
+#witer
+  @extend #notatka
+  background-color: #eceef7
+
+#json
+  @extend #notatka
+  background-color: #eaf3f0
+
+#weezeeroonok
+  @extend #notatka
+  background-color: #fbf2f2
+
+.post_content
+  padding: 50px 100px
+  flex-grow: 1
+  flex-basis: 0
+  img
+    width: 100%
+  a
+    margin-right: 30px
+  .inactive
+    pointer-events: none
+    cursor: default
+    color: #cdcdcd
+  .tools
+    font-size: 12px
+

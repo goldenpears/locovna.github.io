@@ -13,14 +13,16 @@ p
 a, a:visited
   color: $links-color
   text-decoration: none
+  font-weight: bold
 a:hover
   color: $color-accent
 
 li
-  list-style-type: none
-  padding-bottom: 10px
+  padding-bottom: 8px
 ul
+  list-style-type: none
   margin: 50px 0px
+  padding: 0
 
 h4
   color: grey
@@ -45,44 +47,10 @@ section
     span
       color: $primary-text-color
 
-
 #contact
   a
     margin-right: $margin/2
 
-#notatka
-  width: 100vw
-  background-color: #f0f7f3
-  display: flex
-  justify-content: space-around
-  color: grey
-  padding-bottom: 70px
-
-#witer
-  @extend #notatka
-  background-color: #eceef7
-
-#json
-  @extend #notatka
-  background-color: #eaf3f0
-
-#weezeeroonok
-  @extend #notatka
-  background-color: #fbf2f2
-
-.post_content
-  padding: 50px 100px
-  flex-grow: 1
-  flex-basis: 0
-  img
-    width: 100%
-  a
-    margin-right: 30px
-  .inactive
-    pointer-events: none
-    cursor: default
-    color: #909090
-
+@import post
 @import media
 @import decorations
-
