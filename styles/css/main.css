@@ -40,10 +40,13 @@ section {
 #header p {
   font-size: 3.6em;
   color: #000000;
-  font-weight: bold;
-  margin: 0.0625em 0; }
-  #header p span {
-    color: #a5a5a1; }
+  font-weight: 900;
+  margin: 0.0625em 0;
+  font-family: Raleway, Helvetica, sans-serif; }
+#header span {
+  color: #d5d5cd;
+  font-weight: 700;
+  font-size: 0.6em; }
 
 #contact a {
   margin-right: 25px; }
