@@ -52,7 +52,6 @@ section {
   margin-right: 25px; }
 
 #notatka, #witer, #json, #weezeeroonok {
-  width: 100vw;
   background-color: #f0f7f3;
   display: flex;
   justify-content: space-around;
@@ -84,6 +83,12 @@ section {
     color: #cdcdcd; }
   .post_content .tools {
     font-size: 12px; }
+  .post_content .footnote {
+    font-size: 10px;
+    color: #c4c4c4; }
+    .post_content .footnote a, .post_content .footnote a:visited {
+      font-weight: 200;
+      color: #a5a5a1; }
 
 @media screen and (min-width: 2000px) {
   .post_content {
