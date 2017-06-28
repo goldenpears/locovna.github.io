@@ -8,13 +8,10 @@ body
   margin: 0
 
 p
-  margin: $text-margin 0
+  margin: 3px 0
 
-a, a:visited
+a, a:visited, a:hover
   color: $links-color
-  text-decoration: none
-a:hover
-  color: $color-accent
 
 li
   padding-bottom: 8px
@@ -24,11 +21,14 @@ ul
   padding: 0
 
 h4
-  color: grey
+  color: $h4
+  background-color: $primary-text-color
+  width: 120px
+  padding: 5px
 
 #container
   width: 60vw
-  margin: $margin * 2 auto
+  margin: 130px auto
 
 section
   margin: $margin auto
@@ -42,10 +42,10 @@ section
     font-size: $font-size * 4
     color: $title-text-color
     font-weight: 900
-    margin: $text-margin/8 0
+    margin: $text-margin/5 0
     font-family: Raleway, Helvetica, sans-serif
   span
-    color: #d5d5cd
+    color: $sub-header
     font-weight: 700
     font-size: .6em
 

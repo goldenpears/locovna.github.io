@@ -1,10 +1,10 @@
 @import variables
 
 #notatka
-  background-color: #f0f7f3
+  background-color: $primary-text-color
   display: flex
   justify-content: space-around
-  color: grey
+  color: #3c3e48
   padding-bottom: 70px
   a
     font-weight: bold
@@ -15,24 +15,25 @@
   flex-basis: 0
   img
     width: 100%
+    filter: brightness(40%)
   a
+    color: #f4e1d1
     margin-right: 30px
-  .inactive
-    pointer-events: none
-    cursor: default
-    color: #cdcdcd
+    text-decoration: none
   .tools
     font-size: 12px
   .footnote
     font-size: 10px
-    color: #c4c4c4
     a, a:visited
       font-weight: 200
-      color: #a5a5a1
+      color: #755f6d
+    img:hover
+      filter: brightness(100%)
+
 
 pre
   a, a:visited
-    color: #7ecdc7
+    color: $color-accent
   span
     color: black
     font-weight: bold
