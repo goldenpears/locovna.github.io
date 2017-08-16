@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# chmod 755 setup
+# ./setup
+SESSION=$"site"
+
+echo "setup project 🌚🌚🌚"
+tmux -2 new-session -d -s $SESSION
+
+tmux new-window -t $SESSION:1 -n 'pug'    'echo "watching pug files: ";  pug -w src --out . -P'
+tmux new-window -t $SESSION:1 -n 'sass'   'echo "watching sass files: "; sass --watch src/styles:styles'
+tmux new-window -t $SESSION:1 -n 'server' 'echo "run: ";                 http-server'
+
+tmux -2 attach-session -t $SESSION
+tmux ls
+
+echo "Kill session: \n tmux kill-session -t <session-name>"
+echo "🌈  well done! 🌝"
