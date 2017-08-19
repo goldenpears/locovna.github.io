@@ -1,0 +1,27 @@
+body {
+  background: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  font-weight: 100; }
+
+#container {
+  width: 60vw;
+  margin: 130px auto;
+  padding: 5px 50px; }
+
+.header {
+  font-size: 10px; }
+  .header h1 {
+    font-weight: 100; }
+
+.content {
+  font-size: 10px;
+  padding-left: 70px; }
+
+.footer {
+  font-size: 8px;
+  padding-left: 70px; }
+  .footer p {
+    align-content: center; }
+
+/*# sourceMappingURL=main.css.map */
