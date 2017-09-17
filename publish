@@ -4,7 +4,8 @@
 # ./publish
 
 # run only on developer branch
-# it fails if master already exist locally
+
+# tutorial: https://jaspervdj.be/hakyll/tutorials/github-pages-tutorial.html
 
 CYAN='\033[1;36m'
 NC='\033[0m'      # No Color
