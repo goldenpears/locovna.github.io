@@ -3,6 +3,7 @@
 feel free to read me
 
 ### Usage
-```
-./setup
+```shell
+./watch
+./pubish
 ```

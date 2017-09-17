@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# chmod 755 setup
+# ./watch
+
+pwd
+cd blog
+stack build
+
+echo "👮: have a look at http://localhost:8000/."
+stack exec blog watch
