@@ -1,7 +1,13 @@
 #!/bin/sh
 
-# chmod 755 setup
+# chmod 755 publish
 # ./publish
+
+# run only on developer branch
+# it fails if master already exist locally
+
+CYAN='\033[1;36m'
+NC='\033[0m'      # No Color
 
 echo "🌚🌚🌚"
 # Temporarily store uncommited changes
@@ -9,6 +15,10 @@ git stash
 
 # Verify correct branch
 git checkout develop
+
+echo "${CYAN}Type anything to continue or control+c to abort: ${NC}"
+read input_variable
+echo "${CYAN}Nice choice, $input_variable!${NC}"
 
 # Build new files
 cd blog
@@ -25,6 +35,10 @@ cp -a blog/_site/. .
 
 # Commit
 git add -A
+git status
+echo "${CYAN}Type anything to continue or control+c to abort: ${NC}"
+read input_variable
+echo "${CYAN}Here we go${NC}"
 git commit -m "Publish changes 👏"
 
 # Push
