@@ -24,6 +24,7 @@ echo "${CYAN}Nice choice, $input_variable!${NC}"
 # Build new files
 cd blog
 stack build
+stack exec blog clean
 stack exec blog build
 
 # Get previous files
