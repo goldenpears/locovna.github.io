@@ -1,9 +1,11 @@
 body {
     color: black;
-    font-size: 16px;
-    margin: 0px auto 0px auto;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 90px;
     width: 600px;
     font-family: sans-serif;
+    font-weight: 200;
 }
 
 a {
@@ -11,8 +13,7 @@ a {
 }
 
 div#header {
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     padding: 12px 0px 12px 0px;
 }
 
@@ -20,7 +21,6 @@ div#logo a {
     color: black;
     float: left;
     font-size: 18px;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -29,33 +29,25 @@ div#header #navigation {
 }
 
 div#header #navigation a {
+    font-weight: 200;
     color: black;
     font-size: 18px;
-    font-weight: bold;
     margin-left: 12px;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 div#footer {
-    border-top: solid 2px black;
-    color: #555;
+    color: #cdcdcd;
     font-size: 12px;
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
     text-align: right;
 }
 
-h1 {
-    font-size: 24px;
-}
-
-h2 {
-    font-size: 20px;
-}
 
 div.info {
-    color: #555;
-    font-size: 14px;
+    color: #cdcdcd;
+    font-size: 10px;
     font-style: italic;
 }
