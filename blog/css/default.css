@@ -58,5 +58,33 @@ div.title {
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 900;
-    /*text-align: center;*/
 }
+
+/* syntax highlighting */
+
+div.sourceCode {
+    color:gray;
+    background-color: rgb(246, 247, 250);;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*td.lineNumbers { border-right: 1px solid #AAAAAA; text-align: right; color: #AAAAAA; padding-right: 5px; padding-left: 5px; }
+td.sourceCode { padding-left: 5px; }*/
+.sourceCode span.kw { color: gray; font-weight: bold; }
+.sourceCode span.dt { color: gray; }
+.sourceCode span.dv { color: black; }
+.sourceCode span.bn { color: gray; }
+.sourceCode span.fl { color: gray; }
+.sourceCode span.ch { color: gray; }
+.sourceCode span.st { color: lightgray; }
+.sourceCode span.co { color: lightgray; font-style: italic; }
+.sourceCode span.ot { color: gray; }
+.sourceCode span.al { color: gray; font-weight: bold; }
+.sourceCode span.fu { color: red; }
+.sourceCode span.re { }
+.sourceCode span.er { color: gray; font-weight: bold; }
+
+/*******/
