@@ -4,7 +4,7 @@
 # ./publish
 
 # run only on developer branch
-# it fails if master already exist locally
+# tutorial: https://jaspervdj.be/hakyll/tutorials/github-pages-tutorial.html
 
 CYAN='\033[1;36m'
 NC='\033[0m'      # No Color
@@ -23,10 +23,12 @@ echo "${CYAN}Nice choice, $input_variable!${NC}"
 # Build new files
 cd blog
 stack build
+stack exec blog clean
 stack exec blog build
 
 # Get previous files
 git fetch --all
+# git branch -D master
 git checkout -b master --track origin/master
 
 # Overwrite existing files with new files
@@ -39,7 +41,7 @@ git status
 echo "${CYAN}Type anything to continue or control+c to abort: ${NC}"
 read input_variable
 echo "${CYAN}Here we go${NC}"
-git commit -m "Publish changes 👏"
+git commit -m "Publish 👏"
 
 # Push
 git push origin master:master

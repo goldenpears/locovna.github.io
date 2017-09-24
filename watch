@@ -1,11 +1,15 @@
 #!/bin/sh
 
-# chmod 755 setup
+# chmod 755 watch
 # ./watch
 
+CYAN='\033[1;36m'
+NC='\033[0m'      # No Color
+
+echo "👮 ${CYAN} you are here: ${NC}"
 pwd
 cd blog
 stack build
 
-echo "👮: have a look at http://localhost:8000/."
+echo "\n👮  have a look at ${CYAN} http://localhost:8000/. ${NC} \n"
 stack exec blog watch
