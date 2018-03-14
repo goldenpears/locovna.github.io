@@ -10,6 +10,7 @@ echo "👮 ${CYAN} you are here: ${NC}"
 pwd
 cd blog
 stack build
+stack exec blog clean
 
 echo "\n👮  have a look at ${CYAN} http://localhost:8000/. ${NC} \n"
 stack exec blog watch
