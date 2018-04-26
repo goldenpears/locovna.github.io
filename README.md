@@ -2,8 +2,5 @@
 
 feel free to read me
 
-### Usage
-```shell
-./watch
-./publish
-```
+### As simple as it seems
+the stage.
